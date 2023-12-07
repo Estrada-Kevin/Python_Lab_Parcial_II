@@ -1,0 +1,8 @@
+Player: Kevin - Score: 1
+Player: Carlos - Score: 2
+Player: Pedro - Score: 3
+Player: Jesus - Score: 4
+Player: Mariela - Score: 5
+Player: Martina - Score: 6
+Player: Marina - Score: 12
+Player: Hola - Score: 2

@@ -1,0 +1,69 @@
+{
+  "initial_configuration": {
+    "SCREEN_HEIGHT": 1000,
+    "SCREEN_WIDTH": 1000,
+    "LEVEL_ONE_Y": 900,
+    "LEVEL_ONE_X": 75,
+    "LEVEL_TWO_Y": 95,
+    "LEVEL_TWO_X": 75,
+    "LEVEL_THREE_Y": 475,
+    "LEVEL_THREE_X": 475,
+    "BLACK_COLOR": [0, 0, 0]
+  },
+  "pygame_configuration": {
+    "clock": {},
+    "fps": 60,
+    "last_update": 0,
+    "animation_cooldown": 100,
+    "tile_size": 50,
+    "frame": 0,
+    "action": 0
+  },
+  "game_state": {
+    "score": 0,
+    "lifes": 3,
+    "game_over": 0,
+    "flip_image": false,
+    "path": "score.txt",
+    "player_name": "",
+    "letters_pattern": "[a-zA-Z]",
+    "font": {"name": "Futura", "size": 60},
+    "top_five": [],
+    "screen_size": [1000, 1000],
+    "window_caption": "Dinorio",
+    "running": true
+  },
+  "image_load": {
+    "start_img": "images/start_img.png",
+    "quit_img": "images/quit_img.png",
+    "options_img": "images/options_img.png",
+    "more_info_img": "images/more_info_img.png",
+    "select_level_img": "images/select_level.png",
+    "back_img": "images/back_img.png",
+    "restart_img": "images/restart.png",
+    "select_level_one": "images/menu_select_level_one.png",
+    "select_level_two": "images/menu_select_level_two.png",
+    "select_level_three": "images/menu_select_level_three.png",
+    "dino_sprite_sheet_image": "images/dino_sprite.png",
+    "grasslands_background_img": "images/grasslands_background.png"
+  },
+  "instances": {
+    "writer_menu": {"font": "arialblack", "size": 50, "color": [0, 0, 0]},
+    "writer_score": {"font": "Futura", "size": 30, "color": [0, 0, 0]},
+    "player": {"x": 75, "y": 900, "image": "images/dino_sprite.png"}
+  },
+  "buttons": {
+    "start_button": {"position": [0.2, 0.4], "image": "start_img.png", "scale": 0.6},
+    "options_button": {"position": [0.5, 0.4], "image": "options_img.png", "scale": 0.6},
+    "quit_button": {"position": [0.8, 0.4], "image": "quit_img.png", "scale": 0.6},
+    "top_five_button": {"position": [0.2, 0.5], "image": "more_info_img.png", "scale": 0.6},
+    "select_level_button": {"position": [0.5, 0.5], "image": "select_level_img.png", "scale": 0.6},
+    "back_to_options_button": {"position": [0.8, 0.5], "image": "back_img.png", "scale": 0.6},
+    "respawn_button": {"position": [0.4, 0.5], "image": "restart_img.png", "scale": 0.6},
+    "quit_button_in_restart": {"position": [0.6, 0.5], "image": "quit_img.png", "scale": 0.6},
+    "level_one_button": {"position": [0.2, 0.6], "image": "menu_select_level_one.png", "scale": 0.6},
+    "level_two_button": {"position": [0.5, 0.6], "image": "menu_select_level_two.png", "scale": 0.6},
+    "level_three_button": {"position": [0.8, 0.6], "image": "menu_select_level_three.png", "scale": 0.6},
+    "back_to_select_button": {"position": [0.5, 0.7], "image": "back_img.png", "scale": 0.6}
+  }
+}
